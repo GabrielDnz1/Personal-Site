@@ -1,0 +1,44 @@
+.ProfileMenu {
+    background-color: #4D4D4D;
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.circle{
+    background-image: url("https://media.licdn.com/dms/image/D4D03AQEjJGCwlHuLhw/profile-displayphoto-shrink_200_200/0/1702517985715?e=1710374400&v=beta&t=HVRPHDzJi4dGVeodPzofqDMTEgNJFDAhC0W4Wa4_i8s");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    margin-top: 5%;
+    height: 35%;
+    width: 80%;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.name{
+    position: absolute;
+    color: white;
+    display: flex;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 40%;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .ProfileMenu {
+        width: 100%;
+        position: static;
+    }
+
+    .circle {
+        margin-top: 10px;
+        width: 200px;
+        height: 200px;
+    }
+}
