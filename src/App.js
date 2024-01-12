@@ -1,11 +1,11 @@
 import Header from "./components/Header";
-import ProfileMenu from "./components/ProfileMenu";
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <>
     <Header/>
-    <ProfileMenu/>
+    <Home/>
     </>
   );
 }
