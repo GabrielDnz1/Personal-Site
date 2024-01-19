@@ -5,7 +5,7 @@
 body {
   background: linear-gradient(to left, #09182E 0%, #09182E 19%, #091f3f 40%, #051d41 60%, #09182E 83%, #09182E 100%);
   background-size: var(--bgWidth) 100%;
-  animation: bg 3s linear infinite;
+  animation: bg 5s linear infinite;
 }
 
 @keyframes bg {

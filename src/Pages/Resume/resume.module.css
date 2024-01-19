@@ -1,0 +1,42 @@
+.Resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Curriculo{
+    width: 35%;
+}
+
+.Button {
+    margin-top: 45%;
+    background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #00a84f;
+    height: 50px;
+    font-size: 1.4em;
+    padding: 2px;
+    position: absolute;
+    text-decoration: none;
+    width: 400px;
+    z-index: 2;
+  }
+  
+  .Button:hover {
+    color: #fff;
+  }
+  
+  .Button .Buttonspan {
+    align-items: center;
+    background: #09182E;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+  }
+  
+  .Button:hover .Buttonspan {
+    background: transparent;
+  }
