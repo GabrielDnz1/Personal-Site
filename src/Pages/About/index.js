@@ -8,7 +8,7 @@ function About() {
         <div className={styles.description}>
           I am a 19-year-old Brazilian student pursuing a degree <br></br>
           in Computer Engineering at the Federal University of Paraíba.<br></br>
-          Currently, I am in the 4th semester of my program.
+          Currently, I am in the 3rd semester of my program.
         </div>
         <div className={styles.socialsites}>
           <a href='https://github.com/GabrielDnz1'>
